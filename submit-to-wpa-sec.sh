@@ -43,6 +43,7 @@ show_help() {
     echo "  - Shows detailed hcxpcapngtool analysis for each capture"
     echo "  - Displays all validation steps and results"
     echo "  - Shows exact commands being executed"
+    echo "  - Search --cookie key=PUTYOURAPIKEYHERE and put your API key in
     echo
     echo "Directory Structure:"
     echo "  $CAPTURES_DIR/     - Place new captures here"
