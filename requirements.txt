@@ -1,0 +1,23 @@
+# Required Tools for submit-handshakes.sh
+
+# Core Tools
+hcxtools              # For hcxpcapngtool - processing and analyzing handshake captures
+tshark               # For filtering pcapng files and network analysis
+curl                 # For submitting handshakes to wpa-sec.stanev.org
+
+# Optional but Recommended
+xxd                  # For decoding ESSID hex values
+ripgrep              # For faster file searching (if using grep functionality)
+
+# Installation on Debian/Ubuntu/Kali:
+# sudo apt update
+# sudo apt install hcxtools tshark curl xxd ripgrep
+
+# Installation on Arch Linux:
+# sudo pacman -S hcxtools wireshark-cli curl xxd ripgrep
+
+# Installation on Fedora:
+# sudo dnf install hcxtools wireshark-cli curl vim-common ripgrep
+
+# Note: tshark is part of wireshark-cli package on some distributions
+# Note: xxd is part of vim-common package on some distributions 
